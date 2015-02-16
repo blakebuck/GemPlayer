@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="overlay"></div>
+        <div id="preview">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Checkpoint Name
+                    <div id="previewClose" class="pull-right">
+                        X Close
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <img src="" class="img-responsive">
+                    <br>
+                    <p class="text-center">
+                        Checkpoint description will be here.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="GemPlayer">
+            <div id="GemViewPort"></div>
+            <div id="GemControls">
+                <button id="prevGem" class="directionalBtn">Prev</button>
+                <button id="playPauseGems">Play</button>
+                <button id="nextGem" class="directionalBtn">Next</button>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="gem-player.js"></script>
+    </body>
+</html>

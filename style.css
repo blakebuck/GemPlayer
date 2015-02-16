@@ -1,0 +1,46 @@
+#GemControls {
+    text-align: center;
+}
+
+#GemViewPort {
+    height: 360px;
+    overflow: hidden;
+    padding-top: 30px;
+    white-space: nowrap;
+}
+
+#GemViewPort img {
+    margin-bottom: 20px;
+    max-height: 270px;
+    max-width: 250px;
+    position: relative;
+}
+
+#GemViewPort.small img {
+    max-height: none;
+    max-width: 250px;
+}
+
+#GemViewPort.small img:nth-child(n+2) {
+    display: none;
+}
+
+#overlay {
+    background: #555;
+    left: 0;
+    opacity: 0.4;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+#preview {
+    display: none;
+    max-width: 90%;
+    position: absolute;
+    top: 30px;
+    z-index: 1001;
+}
+
+#previewClose {
+    cursor: pointer;
+}
